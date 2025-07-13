@@ -1,4 +1,4 @@
-import React, { use } from "react";
+import React from "react";
 import { AiToolsData } from "../assets/assets";
 import { useNavigate } from "react-router-dom";
 import { useUser } from "@clerk/clerk-react";
@@ -8,7 +8,7 @@ const AiTools = () => {
   const { user } = useUser();
 
   return (
-    <div className="px-4 sm:px-20 xl:px-32 my-20">
+    <div className="px-4 sm:px-20 xl:px-32 py-20">
       <div className="max-w-4xl mx-auto text-center space-y-6 text-gray-800">
         <h2 className="text-3xl sm:text-5xl font-bold leading-tight ">
           Các công cụ AI mạnh mẽ

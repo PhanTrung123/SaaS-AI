@@ -1,4 +1,6 @@
 import favicon from "./favicon.svg";
+import star_icon from "./star_icon.svg";
+import star_dull_icon from "./star_dull_icon.svg";
 import logo from "./logo.svg";
 import {
   SquarePen,
@@ -7,12 +9,13 @@ import {
   Eraser,
   Trash2,
   FileText,
-  Users,
 } from "lucide-react";
 
 export const assets = {
   favicon,
   logo,
+  star_icon,
+  star_dull_icon,
 };
 
 export const AiToolsData = [
@@ -58,11 +61,34 @@ export const AiToolsData = [
     bg: { from: "#e0e7ff", to: "#c7d2fe" },
     path: "/ai/review-resume",
   },
+];
+
+export const dummyTestimonialData = [
   {
-    title: "Cộng đồng chia sẻ ý tưởng",
-    desc: "Tham gia thảo luận, chia sẻ và học hỏi từ cộng đồng yêu công nghệ AI.",
-    Icon: Users,
-    bg: { from: "#f3e8ff", to: "#fbcfe8" },
-    path: "/ai/community",
+    image:
+      "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
+    name: "John Doe",
+    title: "Marketing Director, TechCorp",
+    content:
+      "ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.",
+    rating: 4,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
+    name: "Jane Smith",
+    title: "Content Creator, TechCorp",
+    content:
+      "ContentAI has made our content creation process effortless. The AI tools have helped us produce high-quality content faster than ever before.",
+    rating: 5,
+  },
+  {
+    image:
+      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
+    name: "David Lee",
+    title: "Content Writer, TechCorp",
+    content:
+      "ContentAI has transformed our content creation process. The AI tools have helped us produce high-quality content faster than ever before.",
+    rating: 4,
   },
 ];
