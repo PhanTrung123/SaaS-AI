@@ -2,6 +2,7 @@ import favicon from "./favicon.svg";
 import star_icon from "./star_icon.svg";
 import star_dull_icon from "./star_dull_icon.svg";
 import logo from "./logo.svg";
+
 import {
   SquarePen,
   PenLine,
@@ -13,9 +14,9 @@ import {
 
 export const assets = {
   favicon,
-  logo,
   star_icon,
   star_dull_icon,
+  logo,
 };
 
 export const AiToolsData = [

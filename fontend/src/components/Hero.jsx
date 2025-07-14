@@ -27,10 +27,9 @@ const Hero = () => {
             Xem Bản Demo
           </button>
         </div>
-        <div className="flex items-center justify-center gap-2 text-gray-500 mt-6 hidden sm:block">
+        <div className="flex items-center justify-center gap-2 text-gray-500 mt-6 hidden sm:block ">
           {" "}
-          <Users className="w-6 h-6" /> Hơn{" "}
-          <span className="font-semibold text-blue-600">10.000+</span> người
+          Hơn <span className="font-semibold text-blue-600">10.000+</span> người
           dùng đã tin tưởng và sử dụng{" "}
           <span className="font-semibold text-blue-600">ChatBox AI</span>
         </div>
